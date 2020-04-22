@@ -1,4 +1,12 @@
 \babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Statistische Mechanik und Thermodynamik}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Fragestellung}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Viele mikroskopische Freiheitsgrade - Mikrozust\IeC {\"a}nde}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Viele mikroskopische Freiheitsgrade - Mikrozust\IeC {\"a}nde}{4}{subsection.1.1.1}
+\contentsline {paragraph}{\nonumberline Beispiel:}{4}{section*.2}
+\contentsline {paragraph}{\nonumberline Bemerkung:}{4}{section*.3}
+\contentsline {paragraph}{\nonumberline Mikrozustand:}{4}{section*.4}
+\contentsline {paragraph}{\nonumberline Beobachtung:}{4}{section*.5}
+\contentsline {subsection}{\numberline {1.1.2}Beobachtungsgr\IeC {\"o}\IeC {\ss }en - Makrozust\IeC {\"a}nde}{5}{subsection.1.1.2}
+\contentsline {paragraph}{\nonumberline Makrozustand:}{5}{section*.6}
+\contentsline {section}{\numberline {1.2}Statistische Theoriebildung}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Das Versagen des idealtypischen Vorgehens}{5}{subsection.1.2.1}
