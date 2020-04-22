@@ -10,3 +10,9 @@
 \contentsline {paragraph}{\nonumberline Makrozustand:}{5}{section*.6}
 \contentsline {section}{\numberline {1.2}Statistische Theoriebildung}{5}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Das Versagen des idealtypischen Vorgehens}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Mikrozust\IeC {\"a}nde, Makrozust\IeC {\"a}nde, Reproduzierbarkeit und Course gaining}{6}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Ensemble}{7}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Wie Ensemble zu bilden sind - Beispiel: kinetische Gastheorie}{7}{subsection.1.3.1}
+\contentsline {paragraph}{\nonumberline Gleichgewicht:}{7}{section*.7}
+\contentsline {paragraph}{\nonumberline Zustandsgr\IeC {\"o}\IeC {\ss }e:}{7}{section*.8}
+\contentsline {subsection}{\numberline {1.3.2}Course-graining}{8}{subsection.1.3.2}

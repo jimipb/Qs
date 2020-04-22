@@ -75,3 +75,65 @@ mikroskopischen Gesetzen heraus zu verstehen und womöglich herzuleiten.
     \section{Statistische Theoriebildung}
     \subsection{Das Versagen des idealtypischen Vorgehens}
 
+Gehen wir nun zunächst klassisch vor: Wir betrachten jedes Teilchen einzeln und
+bilden die Summe, um das Gesamtsystem zu beschreiben.
+
+\begin{align*}
+    &Impuls             & & \vv{p} = \sum_i \vv{p}_i\\
+    &Teilchendichte     & & n( \vv{r}) = \sum_i \delta( \vv{r} - \vv{r}_i)\\
+    &Stromdichte        & & \vv{j} (\vv{r}) = \sum_i \dot{\vv{r}}_i
+                            \delta( \vv{r} - \vv{r}_i)
+ \end{align*}
+
+Bedenken wir nun, dass wir so von $10^{23}$ Teilchen den Impulsvektor bestimmen
+müssten, um den Gesamtimpuls beschreiben zu können, wird schnell klar, wieso
+das klassische Vorgehen nicht zielführend ist. Die mikroskopischen
+Bewegungsgleichungen sind in der Praxis nicht handhabbar.
+
+    \subsection{Mikrozustände, Makrozustände, Reproduzierbarkeit und Course
+                gaining}
+
+Wir stellen uns nun folgendes Szenario vor: unsere Arbeitsgruppe führt ein
+thermodynamisches Experiment durch. Wir komprimieren ein Gas mit einer festen
+Kraft $F$ und messen das Volumen $V$ mit dem Messfehler $\Delta V$, die
+Teilchenzahl $N$ mit dem Fehler $\Delta N$, etc. Einige Kollegen überprüfen unser
+Experiment und erhalten die selben Werte. Was im ersten Moment intuitiv klingt,
+sollte nach den letzten Kapiteln verwundern. Alle $10^{23}$ Teilchen der Systeme
+können unmöglich in beiden Experimenten die selben Mikrozustände eingenommen haben.
+Dennoch ist der makroskopische Befund unserer Kollegen eine Bestätigung unserer
+Befunde. Offenbar können verschiedene Mikrozustände zum selben Makrozustand führen.
+
+
+    \section{Ensemble}
+
+Eine ganze Klasse - ein ``Ensemble'' - von Mikrozuständen
+kann gefunden werden, sodass jeder dieser Zustände auf makroskopischer Skala
+innerhalb der experimentellen Auflösung genau das gleiche Verhalten zeigen.
+
+    \subsection{Wie Ensemble zu bilden sind - Beispiel: kinetische Gastheorie}
+
+\paragraph{Gleichgewicht:} Ein physikalisches System, das über sehr viele
+(gekoppelte) Freiheitsgrade verfügt und dessen makroskopische Beobachtungsgrößen
+nicht über die Zeit schwanken, befindet sich im Gleichgewicht.
+
+\paragraph{Zustandsgröße:} Zustandsgrößen sind makroskopische Beobachtungsgrößen, die
+Sätze bilden können, die dahingehend vollständig sind, dass sie einen Makrozustand
+von jedem anderen Makrozustand unterscheiden können, wenn sie genügend genau gemessen
+werden. Makroskopische Zustandsgrößen für Gase sind:
+\begin{itemize}
+    \item Teilchenzahl $N$, $\Delta N$
+    \item Gesamtenergie $E$, $\Delta E$
+    \item Volumen des Behältnisses V
+\end{itemize}
+Weitere makroskopische Zustandsgrößen können sein: Magnetisierung, Drehimpuls -
+allgemein können weitere Erhaltungsgrößen mit ihren Zahlenwerten benötigt werden, um
+den Systemzustand im Gleichgewicht eindeutig zu charakterisieren.
+
+    \subsection{Course-graining}
+
+\begin{center}
+    \includegraphics[width=0.6\textwidth]{Abb/1_3.pdf}
+\end{center}
+
+Messgrößen lösen Phasenraumtrajektorien nur bis auf eine Unschärfe auf. Diese
+Unschärfe ermöglicht die Beschreibung auf grober Skala.
