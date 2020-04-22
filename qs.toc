@@ -1,0 +1,4 @@
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Statistische Mechanik und Thermodynamik}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Fragestellung}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Viele mikroskopische Freiheitsgrade - Mikrozust\IeC {\"a}nde}{3}{subsection.1.1.1}
