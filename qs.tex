@@ -11,9 +11,28 @@
 \usepackage{wrapfig}
 \usepackage{subcaption}
 \usepackage{esvect}
+\usepackage{braket}
+\usepackage{dsfont}
 
 \title{Quantenstatistik}
 \author{wir}
+
+%Eigene Kommandos hier
+\newcommand{\rhopx}{\rho ( p , x )}
+\newcommand{\dpdx}{\int dp^{3N} \, dx^{3N} \,}
+\newcommand{\erw}[1]{\langle #1 \rangle}
+\newcommand{\var}[1]{( #1 - \langle #1 \rangle )}
+\newcommand{\deltaa}{\delta ( a - A )}
+\newcommand{\deltab}{\delta ( b - B )}
+\newcommand{\wkeit}[2]{W_{#1}(#2)}
+\newcommand{\ri}{\hat{\vec{r_{i}}}}
+\newcommand{\rj}{\hat{\vec{r_{j}}}}
+\newcommand{\psirn}{\Psi ( \vec{r_{1}}, \dots \vec{r_{n}})}
+\newcommand{\A}{\hat{A}}
+\newcommand{\dop}{\hat{\rho}}
+\newcommand{\jnorm}{\frac{1}{J}}
+\newcommand{\tr}{\, \text{Tr} \,}
+
 
 \begin{document}
 	\input{titlepage.tex}

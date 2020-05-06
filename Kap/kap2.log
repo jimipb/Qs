@@ -1,0 +1,24 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 NEXT 64-bit) (preloaded format=pdflatex 2019.8.6)  5 MAY 2020 16:03
+entering extended mode
+**./kap2.tex
+(kap2.tex
+LaTeX2e <2018-12-01>
+kap2.tex:1: Undefined control sequence.
+l.1 	\section
+             {Exkurs: Emergenz der Entropie}
+? 
+kap2.tex:1: Emergency stop.
+l.1 	\section
+             {Exkurs: Emergenz der Entropie}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 7 strings out of 492895
+ 174 string characters out of 3123736
+ 57029 words of memory out of 3000000
+ 4023 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 5i,0n,1p,54b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+kap2.tex:1:  ==> Fatal error occurred, no output PDF file produced!
