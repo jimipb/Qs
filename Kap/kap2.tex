@@ -60,7 +60,7 @@
 interpretieren.
 \begin{align*}
 	&\erw{A} = \dpdx \rhopx A(p,x)\\
-	&\wkeit{A}{a} = \erw{\deltaa} = \dpdx \rhopx \delta ( a - A(p,x) )
+	&\wkeit{A} = \erw{\deltaa} = \dpdx \rhopx \delta ( a - A(p,x) )
 \end{align*}
 
 	\subsection{Korrelation}
@@ -82,21 +82,21 @@ $\rightarrow$ Fluktuations-Dissipations-Theorem
 
 \paragraph{Paarwahrscheinlichkeit:} 
 \begin{align*}
-	\wkeit{AB}{a,b} &= \erw{ \deltaa \deltab }\\
+	\wkeit{AB} &= \erw{ \deltaa \deltab }\\
 				   &= \dpdx \rhopx \deltaa \deltab
 \end{align*}
 
 \paragraph{Eigenschaften:}
 \begin{align*}
-	1.\; &\wkeit{A}{a} = \int db \, \wkeit{AB}{a,b}\\
-	     &\wkeit{B}{b} = \int da \, \wkeit{AB}{a,b}\\
+	1.\; &\wkeit{A} = \int db \, \wkeit{AB}\\
+	     &\wkeit{B} = \int da \, \wkeit{AB}\\
 	2.\; &K_{AB} = \int da \, db \, ( a - \erw{A} ) (b - \erw{B} ) \, 
-	     \wkeit{AB}{a,b}
+	     \wkeit{AB}
 \end{align*}
 
 \paragraph{Definition: statistisch unabhängig}
 \[
-	\wkeit{AB}{a,b} = \wkeit{A}{a} \cdot \wkeit{B}{b}
+	\wkeit{AB} = \wkeit{A} \cdot \wkeit{B}
 \]
 Beispiel für statistisch unabhängige Größen, sind die einzelnen Würfe beim Münzwurf.
 
