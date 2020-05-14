@@ -1,0 +1,140 @@
+\chapter{Mikrokanonische Ensemble}
+%\begin{figure}
+    %\centering
+
+%\end{figure}
+Im mikrokan. Ensemble gehen alle Mikrozustände im kompatiblen Phasenraum mit dem gleichen Gewichtsfaktor ein.
+Bedingung für die Energie ist also $E > E_n > E - \Delta E$ ($E_n$ ist Energie von Mikrozustand $\ket n$)
+\begin{equation*}
+g(E) = \sum_n{}\int_{E-\Delta E}^{E}dE'\delta (E' - E_n)
+\end{equation*}
+\begin{equation*}
+\rho(E_n, E) = \begin{cases}\frac{1}{g(E)} , E>E_n>E-\Delta E\\0 , sonst\end{cases}
+\end{equation*}
+
+\section{Eigenschaften der integrierten Zustandsdichte}
+\begin{equation*}
+g(E) = \sum_n{}\int_{E_0}^{E}dE'\delta (E' - E_n)
+\end{equation*}
+\begin{equation*}
+\rho(E_n, E) = \begin{cases}\frac{1}{g(E)} , E>E_n>E-\Delta E\\0 , sonst\end{cases}
+\end{equation*}
+(Integral unabhängig von unterer Grenze)
+Skalenargument: Gesucht $g(E, N)$, mit $N$ makroskopisch.
+\begin{align*}
+    g(E, N) &= g(E_1, N_1)g(E_2, N_2)\\
+        &= g(E/2, N/2)^2\\
+        &\approx g(E/4, N/4)^4\\
+    \lim_{N\to\infty}g(E, N) &\approx g_1(E/N, 1)^N
+\end{align*}
+Mit $g_1$ als intergrierte Zustandsdichte für System mit einem Teilchen.
+Bsp.: Box mit einem freien Teilchen (eindimensional)
+Abzählen liefert: $g_1(E) \propto e^a$ mit $a = \frac a2$
+\begin{align*}
+    g(E, N) &\approx [(\frac EN)^a]^N\\
+        &= \exp (N\log(\frac EN)^a)\\
+        &= \exp (aN\log(\frac EN))
+\end{align*}
+\paragraph*{Diskussion:}
+mittlere Energie von eingeschlossenen Teilchen (kalt):
+$\epsilon _k := \frac EN$\\
+mittlere Energie von eingeschlossenen Teilchen (warm):
+$\epsilon _w = (1+\delta)\epsilon _k$
+$$g(E, N) = \exp(aN\log(\bar E))$$
+
+\begin{equation*}
+    \frac{g(E_w, N)}{g(E_k, N)}=
+    \exp(aN\log(\frac{\epsilon _w}{\epsilon _k}))=
+    \exp(aN\log(1+\delta))=\exp(aN\delta)
+\end{equation*}
+für $\delta$ klein gegen $1$
+
+\chapter{Kanonische Ensemble}
+\paragraph*{Motivation:}
+\begin{itemize}
+    \item Experimente finden nur selten unter voller Isolation statt.
+Insbesondere ist ein thermischer/energetischer Austausch mit einer Umgebung für makroskopische Systeme die Regel.
+    \item \begin{align*}
+            g(E, N) &= \int_{E_0}^{E}dE'\Omega(E, N)\\
+            \Omega(E, N) &= \sum_n\delta(E-E_n)\\
+            \rho(E_n, E) &= \begin{cases}\frac{1}{g(E)} , E>E_n>E-\Delta E\\0 , sonst\end{cases}
+        \end{align*}
+\end{itemize}
+
+\section{Der reduzierte Dichteoperator eines mikrokanonischen Ensembles}
+In einem getrennten Wärmebad mit festem E, N (2 verschiedene Temperaturen) seien:
+\begin{itemize}
+    \item $\ket{1m}$ Eigenzustand von $H_1$
+    \item $\ket{2n}$ Eigenzustand von $H_2$
+\end{itemize}
+$\ket{mn}=\ket{1m}\otimes\ket{2n}$\\
+Energie: $E_{mn} \approx E_{1m} + E_{2n}$
+\begin{equation*}
+    \rho _{12}(E_{mn}) = \begin{cases}\frac{1}{g(E)} , E>E_{mn}>E-\Delta E\\0 , sonst\end{cases}
+\end{equation*}
+Mit $\rho _{12}$, der Wahrscheinlichkeit, den spezifischen Zustand $mn$ im Ensemble (mikrokan.) von $S_1 + S_2$ anzutreffen, falls die Gesamtenergie E ist.
+Gesucht wird nun $\rho _1 (E_{1m})$,
+das heißt die Wahrscheinlichkeit in $S_1$ den Mikrozustand $\ket{1m}$ anzutreffen, wenn die Energie des Gesamtsystems von $S_1+S_2$ auf $E$ fixiert ist.\\
+Wir wissen:\\
+$E - \Delta < E_{1m} + E_{2n} < E$\\
+Falls in $S_1$ die Energie $E_{1m}$ vorliegt, d.h. $S_1$ ist im Zustand $\ket{1m}$, dann gilt:\\
+$E - \Delta -E_{1m} < E_{2n} < E - E_{1m}$
+Nun gibt es $g_2(E-E_{1m})$ Zustände in $S_2$, die mit dieser Bedingung kompatibel sind.
+Das heißt, dass ein Bruchteil der Zustände des Gesamtsystems:\\
+$\frac{g_2(E-E_{1m})}{g(E)}$
+es zulässt, dass $S_1$ im Zustand $\ket{1m}$ ist. Wir schließen:
+\begin{equation*}
+    \rho(E_{1m}) = \frac{g_2(E-E_{1m})}{g(E)}
+\end{equation*}
+\section{Energie der Temperatur}
+$E_1 = \braket{H_1}; E_2 = \braket{H_2}; E = E_1 + E_2$
+$$\rho(E_{1m}) = \frac{g_2(E_2+E_1-E_{1m})}{g(E)}$$
+Was beschränkt $E_1 - E_{1m}$? (enspricht der Schwankung in $S_1$)\\
+Wir haben sicher: $|E_1 - E_{1m}| \leq \Delta _2$
+\begin{equation*}
+    \frac{|E_1 - E_m|}{E_2}\leq\frac{\Delta E_2}{E_2}=\sqrt{\frac{\Delta E_2}{E_2^2}}\approx\frac 1{\sqrt{N_2}}
+\end{equation*}
+Wenn nun $S_2$ tatsächlich im ’Bad’,
+also makroskopisch, dann ist\\ $\frac 1{\sqrt{N_2}} << 1$.\\
+$g_2$ wächst schnell, deshalb entwickle $\log(g_2)$
+\begin{equation*}
+    \log(g_2(E_2+E_1-E_{1m})) = \log(g_2(E_2))+\beta(E_1-E_{1m}) + \mathcal{O}{(N^0)} + \mathcal{O}{(N^{-1})}
+\end{equation*}
+$$\beta = \frac{\partial \log(g_2(E_2))}{\partial E_2}$$
+\paragraph*{Diskussion:}
+\begin{enumerate}
+    \item Term: $\log(g_2(E_2))\propto N_2$
+    \item Term: $\frac{\partial \log(g_2(E_2))}{\partial E_2}\propto N_2\frac{\partial \log(E_2/N_2)}{\partial E_2}\propto \frac{N_2}{E_2}$ (Energie pro Teilchen)
+\end{enumerate}
+Einsetzten liefert:
+\begin{align*}
+    \rho_1(E, m)&=\frac{g_2(E_2)}{g(E)}\exp(\beta(E_1-E_{1m}))\\
+            &=\frac{g_2(E_2)}{g(E)}\exp(\beta(E-E_2))\exp(-\beta E_{1m})\\
+            &=\frac{g_2(E_2)}{g(E)}\frac{\exp(-\beta E_2)}{\exp(-\beta E)}\exp(-\beta E_{1m})
+\end{align*}
+$\frac{g_2(E_2)}{g(E)}\frac{\exp(-\beta E_2)}{\exp(-\beta E)}$ entspricht der Systeminformation des Bads\\
+$\exp(-\beta E_{1m})$ entspricht der relativen Gewichtsfunktion verschiedener Zustände\\
+Normierungsbedingung:$$\sum_{m\in S_1}\rho_1(E, m) \approxeq 1$$
+Aus dieser Bedingung lässt sich der Vorfaktor berechnen:
+\begin{align*}
+    \rho_1(E, m)&=\frac 1Z\exp(-\beta E_{1m})\\
+    Z&:=\sum_{m\in S_1}\exp(-\beta E_{1m})
+\end{align*}
+\subparagraph*{Bemerkung:}
+\begin{align*}
+    \beta &= \frac 1{k_BT} & T &:= Temperatur\\
+          &     & k_B &:= Boltzmannfaktor
+\end{align*}
+\paragraph*{Spezialfall:}
+\begin{align*}
+    H(p, x)&= T(p) + W(x)\\
+    \rho(p, x)&=\frac 1Z\exp(-\beta T(p))\exp(-\beta w(x))
+\end{align*}
+Dann lautet die Normierungsbedingung:
+$$\frac1Z\int dp\exp(-pT(p))\int dx\exp(-\beta H(x))=1$$
+Daraus folgt: $$z=z_pz_x$$
+Teilchen in höheren Dimensionen:
+\begin{align*}
+    \rho(\vec p\vec x))&=\frac1Z\exp(-\beta H(\vec p\vec x)))\\
+    Z&=\int \frac{d\vec p\vec x)}{(2\pi\hbar)^d}\exp(-\beta H(\vec p\vec x)))
+\end{align*}

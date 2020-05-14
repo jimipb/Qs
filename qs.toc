@@ -1,43 +1,48 @@
 \babel@toc {ngerman}{}
-\contentsline {chapter}{\numberline {1}Statistische Mechanik und Thermodynamik}{3}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Fragestellung}{3}{section.1.1}% 
-\contentsline {subsection}{\numberline {1.1.1}Viele mikroskopische Freiheitsgrade - Mikrozust\IeC {\"a}nde}{3}{subsection.1.1.1}% 
-\contentsline {paragraph}{\nonumberline Beispiel:}{4}{section*.2}% 
-\contentsline {paragraph}{\nonumberline Bemerkung:}{4}{section*.3}% 
-\contentsline {paragraph}{\nonumberline Mikrozustand:}{4}{section*.4}% 
-\contentsline {paragraph}{\nonumberline Beobachtung:}{4}{section*.5}% 
-\contentsline {subsection}{\numberline {1.1.2}Beobachtungsgr\IeC {\"o}\IeC {\ss }en - Makrozust\IeC {\"a}nde}{4}{subsection.1.1.2}% 
-\contentsline {paragraph}{\nonumberline Makrozustand:}{5}{section*.6}% 
-\contentsline {section}{\numberline {1.2}Statistische Theoriebildung}{5}{section.1.2}% 
-\contentsline {subsection}{\numberline {1.2.1}Das Versagen des idealtypischen Vorgehens}{5}{subsection.1.2.1}% 
-\contentsline {subsection}{\numberline {1.2.2}Mikrozust\IeC {\"a}nde, Makrozust\IeC {\"a}nde, Reproduzierbarkeit und Course gaining}{6}{subsection.1.2.2}% 
-\contentsline {section}{\numberline {1.3}Ensemble}{6}{section.1.3}% 
-\contentsline {subsection}{\numberline {1.3.1}Wie Ensemble zu bilden sind - Beispiel: kinetische Gastheorie}{6}{subsection.1.3.1}% 
-\contentsline {paragraph}{\nonumberline Gleichgewicht:}{6}{section*.7}% 
-\contentsline {paragraph}{\nonumberline Zustandsgr\IeC {\"o}\IeC {\ss }e:}{6}{section*.8}% 
-\contentsline {subsection}{\numberline {1.3.2}Course-graining}{7}{subsection.1.3.2}% 
-\contentsline {section}{\numberline {1.4}Exkurs: Emergenz der Entropie}{8}{section.1.4}% 
-\contentsline {chapter}{\numberline {2}Grundlegende Konzepte der Statistik und der Wahrscheinlichkeitstheorie}{9}{chapter.2}% 
-\contentsline {paragraph}{\nonumberline klassische Mechanik:}{9}{section*.9}% 
-\contentsline {paragraph}{\nonumberline QM:}{9}{section*.10}% 
-\contentsline {section}{\numberline {2.1}Klassische Statistik}{9}{section.2.1}% 
-\contentsline {paragraph}{\nonumberline Varianz:}{10}{section*.13}% 
-\contentsline {paragraph}{\nonumberline Weitere Momente:}{11}{section*.14}% 
-\contentsline {paragraph}{\nonumberline Phasenraumdichte:}{11}{section*.15}% 
-\contentsline {subsection}{\numberline {2.1.1}Motivation f\IeC {\"u}r die Einf\IeC {\"u}hrung der Phasenraumdichte:}{11}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}Generische Eigenschaften von $\rho ( p , x )$}{11}{subsection.2.1.2}% 
-\contentsline {paragraph}{\nonumberline Bemerkung:}{12}{section*.16}% 
-\contentsline {subsection}{\numberline {2.1.3}Korrelation}{12}{subsection.2.1.3}% 
-\contentsline {paragraph}{\nonumberline Bemerkung:}{12}{section*.17}% 
-\contentsline {paragraph}{\nonumberline Paarwahrscheinlichkeit:}{13}{section*.18}% 
-\contentsline {paragraph}{\nonumberline Eigenschaften:}{13}{section*.19}% 
-\contentsline {paragraph}{\nonumberline Definition: statistisch unabh\IeC {\"a}ngig}{13}{section*.20}% 
-\contentsline {subparagraph}{\nonumberline Anwendung:}{13}{section*.21}% 
-\contentsline {section}{\numberline {2.2}Quantenstatistik}{14}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Quanten-Mittelwerte}{14}{subsection.2.2.1}% 
-\contentsline {subparagraph}{\nonumberline Beispiel:}{14}{section*.22}% 
-\contentsline {paragraph}{\nonumberline Zeitentwicklung:}{14}{section*.23}% 
-\contentsline {subsection}{\numberline {2.2.2}Dichteoperator}{15}{subsection.2.2.2}% 
-\contentsline {paragraph}{\nonumberline Vollst\IeC {\"a}ndigkeit:}{15}{section*.24}% 
-\contentsline {paragraph}{\nonumberline Anwendung im mikroskopischen System:}{15}{section*.25}% 
-\contentsline {paragraph}{\nonumberline Eigenschaften von $\mathaccentV {hat}05E{\rho }$:}{15}{section*.26}% 
+\contentsline {chapter}{\numberline {1}Statistische Mechanik und Thermodynamik}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Fragestellung}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Viele mikroskopische Freiheitsgrade - Mikrozustände}{4}{subsection.1.1.1}%
+\contentsline {paragraph}{\nonumberline Beispiel:}{5}{section*.2}%
+\contentsline {paragraph}{\nonumberline Bemerkung:}{5}{section*.3}%
+\contentsline {paragraph}{\nonumberline Mikrozustand:}{5}{section*.4}%
+\contentsline {paragraph}{\nonumberline Beobachtung:}{5}{section*.5}%
+\contentsline {subsection}{\numberline {1.1.2}Beobachtungsgrößen - Makrozustände}{5}{subsection.1.1.2}%
+\contentsline {paragraph}{\nonumberline Makrozustand:}{6}{section*.6}%
+\contentsline {section}{\numberline {1.2}Statistische Theoriebildung}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Das Versagen des idealtypischen Vorgehens}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Mikrozustände, Makrozustände, Reproduzierbarkeit und Course gaining}{7}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Ensemble}{7}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Wie Ensemble zu bilden sind - Beispiel: kinetische Gastheorie}{7}{subsection.1.3.1}%
+\contentsline {paragraph}{\nonumberline Gleichgewicht:}{7}{section*.7}%
+\contentsline {paragraph}{\nonumberline Zustandsgröße:}{7}{section*.8}%
+\contentsline {subsection}{\numberline {1.3.2}Course-graining}{8}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Exkurs: Emergenz der Entropie}{9}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Grundlegende Konzepte der Statistik und der Wahrscheinlichkeitstheorie}{10}{chapter.2}%
+\contentsline {paragraph}{\nonumberline klassische Mechanik:}{10}{section*.9}%
+\contentsline {paragraph}{\nonumberline QM:}{10}{section*.10}%
+\contentsline {section}{\numberline {2.1}Klassische Statistik}{10}{section.2.1}%
+\contentsline {paragraph}{\nonumberline Varianz:}{11}{section*.13}%
+\contentsline {paragraph}{\nonumberline Weitere Momente:}{12}{section*.14}%
+\contentsline {paragraph}{\nonumberline Phasenraumdichte:}{12}{section*.15}%
+\contentsline {subsection}{\numberline {2.1.1}Motivation für die Einführung der Phasenraumdichte:}{12}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Generische Eigenschaften von $\rho ( p , x )$}{12}{subsection.2.1.2}%
+\contentsline {paragraph}{\nonumberline Bemerkung:}{13}{section*.16}%
+\contentsline {subsection}{\numberline {2.1.3}Korrelation}{13}{subsection.2.1.3}%
+\contentsline {paragraph}{\nonumberline Bemerkung:}{13}{section*.17}%
+\contentsline {paragraph}{\nonumberline Paarwahrscheinlichkeit:}{14}{section*.18}%
+\contentsline {paragraph}{\nonumberline Eigenschaften:}{14}{section*.19}%
+\contentsline {paragraph}{\nonumberline Definition: statistisch unabhängig}{14}{section*.20}%
+\contentsline {subparagraph}{\nonumberline Anwendung:}{14}{section*.21}%
+\contentsline {section}{\numberline {2.2}Quantenstatistik}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Quanten-Mittelwerte}{15}{subsection.2.2.1}%
+\contentsline {subparagraph}{\nonumberline Beispiel:}{15}{section*.22}%
+\contentsline {paragraph}{\nonumberline Zeitentwicklung:}{15}{section*.23}%
+\contentsline {subsection}{\numberline {2.2.2}Dichteoperator}{16}{subsection.2.2.2}%
+\contentsline {paragraph}{\nonumberline Vollständigkeit:}{16}{section*.24}%
+\contentsline {paragraph}{\nonumberline Anwendung im mikroskopischen System:}{16}{section*.25}%
+\contentsline {paragraph}{\nonumberline Eigenschaften von $\hat {\rho }$:}{16}{section*.26}%
+\contentsline {chapter}{\numberline {3}Mikrokanonische Ensemble}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Eigenschaften der integrierten Zustandsdichte}{17}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Kanonische Ensemble}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Der reduzierte Dichteoperator eines mikrokanonischen Ensembles}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Energie der Temperatur}{20}{section.4.2}%
