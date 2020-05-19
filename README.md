@@ -7,7 +7,7 @@
 | 30.04.2020    | fehlt  |             |
 | 05.05.2020    | fehlt  | Flo         |
 | 07.05.2020    | fertig | Philipp     |
-| 12.05.2020    | fehlt  | Jonas       |
+| 12.05.2020    | 50%    | Jonas       |
 | 14.05.2020    | fehlt  |             |
 | 19.05.2020    | fehlt  | |
 | 20.05.2020    | fehlt  | |
